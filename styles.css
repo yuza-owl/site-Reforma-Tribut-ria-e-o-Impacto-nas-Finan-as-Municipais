@@ -50,7 +50,7 @@ button, input, select { font: inherit; }
 .site-header { position: absolute; z-index: 20; inset: 0 0 auto; border-bottom: 1px solid rgba(255,255,255,.14); color: var(--white); }
 .header-inner { height: 88px; display: flex; align-items: center; gap: 38px; }
 .brand { flex: 0 0 auto; display: flex; align-items: center; }
-.brand img { width: 116px; height: 68px; object-fit: contain; }
+.brand img { width: 148px; height: 56px; object-fit: contain; }
 .desktop-nav { margin-left: auto; display: flex; gap: 28px; }
 .desktop-nav a { color: rgba(255,255,255,.74); font-size: 11px; font-weight: 600; letter-spacing: .06em; transition: color .2s; }
 .desktop-nav a:hover { color: var(--white); }
@@ -154,7 +154,7 @@ blockquote { margin: 36px 0; padding: 22px 24px; border: 1px solid var(--line); 
 
 footer { padding: 42px 0; color: rgba(255,255,255,.64); background: #082d29; }
 .footer-inner { display: grid; grid-template-columns: 150px 1fr; align-items: center; gap: 46px; }
-.footer-inner .brand img { width: 128px; height: 78px; }
+.footer-inner .brand img { width: 164px; height: 62px; }
 .footer-inner p { margin: 0; font-size: 11px; }
 .mobile-cta { display: none; }
 
@@ -176,7 +176,7 @@ footer { padding: 42px 0; color: rgba(255,255,255,.64); background: #082d29; }
   body { padding-bottom: 66px; }
   .site-header .button-small { display: none; }
   .header-inner { height: 74px; }
-  .brand img { width: 92px; height: 58px; }
+  .brand img { width: 126px; height: 48px; }
   .hero { min-height: 850px; align-items: flex-start; }
   .hero-media { background-position: 66% center; }
   .hero-shade { background: linear-gradient(90deg, rgba(7,37,34,.96), rgba(7,37,34,.72)), linear-gradient(0deg, rgba(7,37,34,.82), transparent 60%); }
@@ -210,6 +210,6 @@ footer { padding: 42px 0; color: rgba(255,255,255,.64); background: #082d29; }
   .enrollment-form { padding: 24px; }
   .contact-links a, .contact-links .address { grid-template-columns: 1fr; gap: 5px; font-size: 14px; overflow-wrap: anywhere; }
   .footer-inner { grid-template-columns: 1fr; gap: 18px; }
-  .footer-inner .brand img { width: 112px; height: 70px; }
+  .footer-inner .brand img { width: 150px; height: 56px; }
   .mobile-cta { position: fixed; z-index: 30; right: 10px; bottom: 10px; left: 10px; height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 9px; color: var(--ink); background: var(--sand); box-shadow: 0 10px 30px rgba(0,0,0,.22); font-size: 11px; font-weight: 750; letter-spacing: .06em; text-transform: uppercase; }
 }
