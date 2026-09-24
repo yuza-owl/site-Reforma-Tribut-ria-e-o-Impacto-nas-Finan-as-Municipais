@@ -135,9 +135,9 @@ blockquote { margin: 36px 0; padding: 22px 24px; border: 1px solid var(--line); 
 .schedule-content li strong { color: var(--white); }
 
 .expert { background: var(--sand); }
-.expert-grid { display: grid; grid-template-columns: minmax(280px, .72fr) 1fr; gap: 72px; align-items: center; }
-.expert-photo { margin: 0; overflow: hidden; border-radius: var(--radius); background: var(--ochre); }
-.expert-photo img { width: 100%; aspect-ratio: 4 / 5; display: block; object-fit: cover; object-position: center; }
+.expert-grid { display: grid; grid-template-columns: minmax(280px, 400px) 1fr; gap: 72px; align-items: center; }
+.expert-photo { width: 100%; max-width: 400px; margin: 0; justify-self: start; overflow: hidden; border-radius: var(--radius); background: var(--ochre); }
+.expert-photo img { width: 100%; height: auto; display: block; }
 .expert-copy .eyebrow { color: var(--taupe); }
 .expert-lead { max-width: 720px; margin: 20px 0 38px; color: var(--taupe); font-size: 22.05px; font-weight: 500; letter-spacing: -.02em; }
 .credentials { margin: 0; padding: 0; list-style: none; border-top: 1px solid rgba(13,57,53,.18); }
@@ -230,7 +230,7 @@ footer { padding: 42px 0; color: rgba(255,255,255,.64); background: #082d29; }
   .schedule-content h3 { font-size: 25.3575px; }
   .schedule-content ul { grid-template-columns: 1fr; }
   .expert-grid { grid-template-columns: 1fr; }
-  .expert-photo { max-width: 480px; }
+  .expert-photo { width: min(72vw, 280px); margin-inline: auto; justify-self: center; }
   .expert-lead { font-size: 19.845px; }
   .audience-list { grid-template-columns: 1fr; }
   .enrollment-form { padding: 24px; }
