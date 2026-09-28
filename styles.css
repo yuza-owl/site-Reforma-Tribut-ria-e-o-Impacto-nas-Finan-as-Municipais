@@ -123,8 +123,8 @@ blockquote { margin: 36px 0; padding: 22px 24px; border: 1px solid var(--line); 
 .agenda-lunch { background: rgba(243,205,149,.1); }
 .agenda-lunch strong { color: var(--sand); }
 .agenda-lunch span { color: var(--white); font-size: 18px; font-weight: 650; }
-.included-meals { margin: 0 0 54px; padding: 15px 18px; border-radius: 9px; color: rgba(255,255,255,.72); background: rgba(255,255,255,.07); font-size: 14.3325px; }
-.included-meals strong { color: var(--white); }
+.included-meals { grid-column: 1 / -1; margin: 0; padding: 15px 18px; border-radius: 9px; color: rgba(255,255,255,.72); background: rgba(255,255,255,.07); font-size: 14.3325px; }
+.included-meals strong { display: inline; color: var(--white); font-size: inherit; }
 .schedule-grid { border-top: 1px solid rgba(255,255,255,.15); }
 .schedule-block { display: grid; grid-template-columns: 145px 1fr; gap: 50px; padding: 58px 0; border-bottom: 1px solid rgba(255,255,255,.15); }
 .time-column { display: flex; flex-direction: column; align-items: flex-start; }
