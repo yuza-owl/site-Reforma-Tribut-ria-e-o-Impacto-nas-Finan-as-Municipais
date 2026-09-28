@@ -73,6 +73,9 @@ h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-family: 'Inter'; }
 h1 { max-width: 680px; margin-bottom: 18px; font-size: clamp(46.305px, 5.62275vw, 74.97px); font-weight: 620; letter-spacing: -.055em; line-height: .99; }
 .hero-question { margin-bottom: 22px; color: var(--sand); font-size: clamp(22.05px, 2.205vw, 29.7675px); font-weight: 520; letter-spacing: -.025em; }
+.hero-title-focus { display: block; font-size: clamp(44px, 6.2vw, 82px); line-height: 1; letter-spacing: -.055em; }
+.hero-title-article { font-size: 1em; }
+.hero-title-support { display: block; margin-top: 16px; font-size: clamp(22px, 2.7vw, 36px); line-height: 1.15; letter-spacing: -.035em; }
 .hero-lead { max-width: 590px; margin-bottom: 0; color: rgba(255,255,255,.74); font-size: 17.64px; line-height: 1.65; }
 .hero-actions { margin-top: 32px; }
 .button-accent { color: var(--ink); background: var(--sand); }
@@ -102,6 +105,8 @@ blockquote { margin: 36px 0; padding: 22px 24px; border: 1px solid var(--line); 
 .mastery-card p { max-width: 470px; margin: auto 0 0; color: var(--muted); font-size: 15.435px; }
 .mastery-card.dark p { color: rgba(255,255,255,.72); }
 
+.schedule-intro { padding: clamp(40px, 6vw, 72px) 0; background: var(--paper); }
+.schedule-intro h2 { max-width: 1000px; }
 .schedule { color: var(--white); background: var(--ink); }
 .schedule-head { margin-bottom: 54px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 64px; align-items: end; }
 .schedule-head h2 { max-width: 720px; }
@@ -218,6 +223,8 @@ footer { padding: 42px 0; color: rgba(255,255,255,.64); background: #082d29; }
   .hero-inner { padding: 112px 0 32px; }
   .hero-copy { width: 100%; }
   h1 { font-size: clamp(41.895px, 12.1275vw, 52.92px); }
+  .hero-title-focus { font-size: clamp(32px, 9.5vw, 58px); }
+  .hero-title-support { font-size: clamp(18px, 4.8vw, 28px); }
   .hero-question { font-size: 22.05px; }
   .hero-lead { font-size: 15.435px; }
   .hero-actions .button { width: 100%; }
